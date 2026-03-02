@@ -29,6 +29,6 @@ def transcribe_to_srt(audio_path, srt_path=None, model_size="small"):
 if __name__ == "__main__":
     import sys
     if len(sys.argv) < 2:
-        print("How? -> python whisper_korean_srt.py [voice_file_path]")
+        print("How? -> python voice2srt.py [voice_file_path]")
     else:
         transcribe_to_srt(sys.argv[1])
